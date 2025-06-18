@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "easylogger/elog.c"
+        "easylogger/elog_port.c"
+        "easylogger/elog_utils.c"
+    INCLUDE_DIRS 
+        "easylogger"
+)
