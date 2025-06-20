@@ -4,6 +4,9 @@ idf_component_register(
         "easylogger/elog.c"
         "easylogger/elog_port.c"
         "easylogger/elog_utils.c"
+        "elog_exception.c"
+        "elog_helper.c"
     INCLUDE_DIRS 
         "easylogger"
+        "."
 )
